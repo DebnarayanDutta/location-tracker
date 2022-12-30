@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location-tracker</title>
+    <link href="./style.css" rel="stylesheet"/>
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+</head>
+<body>
+   <div id="index-div">
+     <span>My Public IP ADDRESS:</span>
+     <span id="Ip-address"></span>
+     <br>
+     <br>
+     <br>
+     <button onclick="handleApiCall()"> Get Data </button>
+    </div>
+     <div id="info1">
+    <span id="my">My Public IP ADDRESS:</span>
+     <span id="IPaddress"></span>
+     <br>
+     <span id="lat"></span>
+     <span id="city"></span>
+     <span id="organisation"></span>
+     <br>
+     </div>
+     <div id="info2">
+     <span id="long"></span>
+     <span id="region"></span>
+     <span id="hostname"></span>
+    </div>
+     <iframe 
+      width="1060" height="470" frameborder="0" style="border:0" id="googleMap"></iframe>
+
+     <h2 id="time-zone"></h2>
+     <h2 id="date"></h2>
+     <h2 id="pincod"></h2>
+     <h2 id="message"></h2>
+     <br>
+     <input id="filter" type="text" placeholder="Filter">
+     <button id="postOfficeBtn" onclick="postOfficeBtn()">Search</button>
+     <div id="postoffices-list-info">
+        
+        
+     </div>
+    
+    <script src="./script.js"></script>
+    
+</body>
+</html>

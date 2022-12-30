@@ -1,0 +1,80 @@
+#index-div span{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#index-div button{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+#index-div button:hover{
+    background-color: rgb(196, 192, 192);
+}
+#index-div{
+    background-color: bisque;
+}
+#info1{
+    margin-left: 10px;
+    word-spacing: 2px;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 600;
+}
+#my{
+    font-size: 20px;
+}
+#city{
+    margin-left: 55px;
+}
+#organisation{
+    margin-left: 100px;
+}
+#info2{
+    margin-left: 10px;
+    word-spacing: 2px;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 600;
+}
+#region{
+    margin-left: 40px;
+}
+#hostname{
+    margin-left: 40px;
+}
+iframe{
+   margin-top: 20px;
+}
+#postoffice-item{
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: left;
+    width: 320px;
+    float: left;
+    line-break: normal;
+}
+#postoffice-item h2{
+    margin-left: 10px;
+}
+#filter{
+    height: 50px;
+    width: 500px;
+    font-size: 25px;
+    border: 2px solid black;
+    font-weight: 500;
+    border-radius: 5px;
+}
+#postOfficeBtn{
+    width: 100px;
+    height: 25px ;
+    border: 2px solid black;
+    font-weight: 300;
+    border-radius: 5px;
+}
